@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react"
 import Link from "next/link"
 import SearchBar from "@/components/search-bar"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { words } from "@/lib/words-data"
 
 export default function Home() {
@@ -63,20 +64,25 @@ export default function Home() {
     <div className="min-h-screen bg-background flex flex-col">
       {/* Header */}
       <header className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 py-8 w-full">
-          <h1 className="text-4xl font-bold text-foreground tracking-tight">Learn Hanzi</h1>
-          <p className="text-base text-muted-foreground mt-2">Master Chinese characters with animation and practice</p>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8 w-full">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h1 className="text-2xl sm:text-4xl font-bold text-foreground tracking-tight">Learn Hanzi</h1>
+              <p className="text-sm sm:text-base text-muted-foreground mt-1 sm:mt-2">Master Chinese characters with animation and practice</p>
+            </div>
+            <ThemeToggle />
+          </div>
         </div>
       </header>
 
       {/* Content */}
-      <div className="flex-1 flex flex-col overflow-hidden">
-        <div className="w-full border-b border-border p-6 overflow-y-auto">
+      <div className="flex-1 overflow-y-auto">
+        <div className="w-full p-4 sm:p-6">
           <SearchBar query={searchQuery} onQueryChange={setSearchQuery} />
 
           {/* Word List */}
-          <div className="mt-8">
-            <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-widest mb-4">
+          <div className="mt-6 sm:mt-8">
+            <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-widest mb-3 sm:mb-4">
               {filteredWords.length === 0 ? "No words found" : `Words (${filteredWords.length})`}
             </h3>
             <div className="space-y-2">
@@ -84,15 +90,15 @@ export default function Home() {
                 <Link
                   key={word.id}
                   href={`/word/${word.id}`}
-                  className="group flex items-center gap-4 px-4 py-3 rounded-lg transition-all bg-secondary/40 hover:bg-accent/10 hover:border-accent/30 border border-transparent"
+                  className="group flex items-center gap-3 sm:gap-4 px-3 sm:px-4 py-3 rounded-lg transition-all bg-secondary/40 hover:bg-accent/10 hover:border-accent/30 border border-transparent"
                 >
-                  <div className="flex-1">
+                  <div className="flex-1 min-w-0">
                     <div className="font-semibold text-lg text-foreground group-hover:text-accent transition-colors">
                       {word.hanzi}
                     </div>
-                    <div className="text-sm text-muted-foreground mt-0.5">{word.pinyin}</div>
+                    <div className="text-sm text-muted-foreground mt-0.5 truncate">{word.pinyin}</div>
                   </div>
-                  <div className="text-muted-foreground group-hover:text-accent transition-colors opacity-0 group-hover:opacity-100">
+                  <div className="text-muted-foreground group-hover:text-accent transition-colors opacity-0 group-hover:opacity-100 flex-shrink-0">
                     →
                   </div>
                 </Link>

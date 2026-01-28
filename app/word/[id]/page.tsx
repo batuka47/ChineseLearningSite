@@ -2,6 +2,7 @@
 
 import { useParams, useRouter } from "next/navigation"
 import WordDetail from "@/components/word-detail"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { words } from "@/lib/words-data"
 import { ChevronLeft } from "lucide-react"
 import { Suspense } from "react"
@@ -30,17 +31,23 @@ export default function WordPage() {
   }
 
   return (
-    <div className="min-h-screen bg-background">
-      {/* Back Button */}
-      <button
-        onClick={() => router.back()}
-        className="absolute top-4 left-4 flex items-center gap-2 px-4 py-2 rounded-md bg-background border border-border text-foreground hover:bg-secondary transition-colors z-10"
-      >
-        <ChevronLeft size={20} />
-        Back
-      </button>
+    <div className="h-screen flex flex-col bg-background overflow-hidden">
+      {/* Header with Back Button */}
+      <header className="flex-shrink-0 flex items-center justify-between p-3 sm:p-4 border-b border-border bg-background">
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => router.back()}
+            className="flex items-center gap-2 px-3 py-2 rounded-md bg-secondary border border-border text-foreground hover:bg-border transition-colors"
+          >
+            <ChevronLeft size={18} />
+            <span className="text-sm font-medium">Back</span>
+          </button>
+          <h1 className="text-lg sm:text-xl font-semibold text-foreground ml-2">{word.hanzi}</h1>
+        </div>
+        <ThemeToggle />
+      </header>
 
-      <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <Suspense fallback={<div className="flex-1 flex items-center justify-center">Loading...</div>}>
         <WordDetail word={word} />
       </Suspense>
     </div>
