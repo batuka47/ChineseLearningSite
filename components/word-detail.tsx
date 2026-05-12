@@ -157,7 +157,8 @@ export default function WordDetail({ word }: WordDetailProps) {
 
   const playAudio = () => {
     if (isPlayingAudio) return
-    const audio = new Audio(word.audioUrl)
+    const encodedUrl = word.audioUrl.replace(/[^\x00-\x7F]/g, (c) => encodeURIComponent(c))
+    const audio = new Audio(encodedUrl)
     audioRef.current = audio
     setIsPlayingAudio(true)
     audio.play()
@@ -170,7 +171,7 @@ export default function WordDetail({ word }: WordDetailProps) {
       {/* Character Display - Main Content */}
       <div
         ref={containerRef}
-        className="flex-1 flex flex-col sm:flex-row items-center justify-start sm:justify-center gap-6 sm:gap-8 lg:gap-10 bg-gradient-to-br from-background to-secondary/20 p-4 sm:p-6 overflow-y-auto"
+        className="flex-1 flex flex-col sm:flex-row items-center justify-start sm:justify-center gap-6 sm:gap-8 lg:gap-10 bg-linear-to-br from-background to-secondary/20 p-4 sm:p-6 overflow-y-auto"
       >
         {characters.map((char, index) => (
           <div key={`${char}-${index}`} className="flex flex-col items-center">
@@ -215,7 +216,7 @@ export default function WordDetail({ word }: WordDetailProps) {
       </div>
 
       {/* Bottom Info Bar */}
-      <div className="flex-shrink-0 bg-secondary border-t border-border p-3 sm:p-4 lg:p-6">
+      <div className="shrink-0 bg-secondary border-t border-border p-3 sm:p-4 lg:p-6">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-4 lg:gap-4 mb-3 sm:mb-4">
             {/* Pinyin */}
