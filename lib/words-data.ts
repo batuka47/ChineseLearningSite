@@ -18,7 +18,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Home",
     meaningMn: "гэр",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/家/家.m4a",
+    audioUrl: "/audio/jia.m4a",
     unit: 4,
   },
   {
@@ -28,7 +28,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "School",
     meaningMn: "сургууль",
-    audioUrl: "/audio/YCT1汉字+录音/第八课/学校/学校.m4a",
+    audioUrl: "/audio/xuexiao.m4a",
     unit: 8,
   },
   {
@@ -38,7 +38,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Store / Shop",
     meaningMn: "дэлгүүр",
-    audioUrl: "/audio/YCT1汉字+录音/第八课/商店/商店.m4a",
+    audioUrl: "/audio/shangdian.m4a",
     unit: 8,
   },
 
@@ -50,7 +50,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Chinese person",
     meaningMn: "хятад хүн",
-    audioUrl: "/audio/YCT1汉字+录音/第三课/中国人/中国人.m4a",
+    audioUrl: "/audio/zhongguoren.m4a",
     unit: 3,
   },
   {
@@ -60,7 +60,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Dad",
     meaningMn: "аав",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/爸爸/爸爸.m4a",
+    audioUrl: "/audio/baba.m4a",
     unit: 4,
   },
   {
@@ -70,7 +70,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Mom",
     meaningMn: "ээж",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/妈妈/妈妈.m4a",
+    audioUrl: "/audio/mama.m4a",
     unit: 4,
   },
   {
@@ -80,7 +80,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Older brother",
     meaningMn: "ах",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/哥哥/哥哥.m4a",
+    audioUrl: "/audio/gege.m4a",
     unit: 4,
   },
   {
@@ -90,7 +90,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Older sister",
     meaningMn: "эгч",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/姐姐/姐姐.m4a",
+    audioUrl: "/audio/jiejie.m4a",
     unit: 4,
   },
   {
@@ -100,7 +100,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Teacher",
     meaningMn: "багш",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/老师/老师.m4a",
+    audioUrl: "/audio/laoshi.m4a",
     unit: 1,
   },
 
@@ -112,7 +112,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Ear",
     meaningMn: "чих",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/耳朵/耳朵.m4a",
+    audioUrl: "/audio/erduo.m4a",
     unit: 6,
   },
   {
@@ -122,7 +122,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Eye",
     meaningMn: "нүд",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/眼睛/眼睛.m4a",
+    audioUrl: "/audio/yanjing.m4a",
     unit: 6,
   },
   {
@@ -132,7 +132,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Hair",
     meaningMn: "үс",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/头发/头发.m4a",
+    audioUrl: "/audio/toufa.m4a",
     unit: 6,
   },
   {
@@ -142,7 +142,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Hand",
     meaningMn: "гар",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/手/手.m4a",
+    audioUrl: "/audio/shou.m4a",
     unit: 6,
   },
   {
@@ -152,7 +152,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Height / Stature",
     meaningMn: "өндөр",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/个子/个子.m4a",
+    audioUrl: "/audio/gezi.m4a",
     unit: 6,
   },
   {
@@ -162,7 +162,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Mouth",
     meaningMn: "ам",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/口/口.m4a",
+    audioUrl: "/audio/kou.m4a",
     unit: 4,
   },
   {
@@ -172,7 +172,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Nose",
     meaningMn: "хамар",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/鼻子/鼻子.m4a",
+    audioUrl: "/audio/bizi.m4a",
     unit: 6,
   },
 
@@ -184,7 +184,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Bird",
     meaningMn: "шувуу",
-    audioUrl: "/audio/YCT1汉字+录音/第七课/鸟/鸟.m4a",
+    audioUrl: "/audio/niao.m4a",
     unit: 7,
   },
   {
@@ -194,7 +194,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Cat",
     meaningMn: "муур",
-    audioUrl: "/audio/YCT1汉字+录音/第七课/猫/猫.m4a",
+    audioUrl: "/audio/mao.m4a",
     unit: 7,
   },
   {
@@ -204,7 +204,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Dog",
     meaningMn: "нохой",
-    audioUrl: "/audio/YCT1汉字+录音/第七课/狗/狗.m4a",
+    audioUrl: "/audio/gou.m4a",
     unit: 7,
   },
   {
@@ -214,7 +214,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Fish",
     meaningMn: "загас",
-    audioUrl: "/audio/YCT1汉字+录音/第七课/鱼/鱼.m4a",
+    audioUrl: "/audio/yu.m4a",
     unit: 7,
   },
 
@@ -226,7 +226,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Apple",
     meaningMn: "алим",
-    audioUrl: "/audio/YCT1汉字+录音/第十一课/苹果/苹果.m4a",
+    audioUrl: "/audio/pingguo.m4a",
     unit: 11,
   },
   {
@@ -236,7 +236,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Milk",
     meaningMn: "сүү",
-    audioUrl: "/audio/YCT1汉字+录音/第十一课/牛奶/牛奶.m4a",
+    audioUrl: "/audio/niunai.m4a",
     unit: 11,
   },
   {
@@ -246,7 +246,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Noodles",
     meaningMn: "гоймон",
-    audioUrl: "/audio/YCT1汉字+录音/第十一课/面条/面条.m4a",
+    audioUrl: "/audio/miantiao.m4a",
     unit: 11,
   },
   {
@@ -256,7 +256,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Rice",
     meaningMn: "будаа",
-    audioUrl: "/audio/YCT1汉字+录音/第十一课/米饭/米饭.m4a",
+    audioUrl: "/audio/mifan.m4a",
     unit: 11,
   },
   {
@@ -266,7 +266,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Water",
     meaningMn: "ус",
-    audioUrl: "/audio/YCT1汉字+录音/第十一课/水/水.m4a",
+    audioUrl: "/audio/shui.m4a",
     unit: 11,
   },
 
@@ -278,7 +278,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "O'clock",
     meaningMn: "цаг",
-    audioUrl: "/audio/YCT1汉字+录音/第十课/点/点.m4a",
+    audioUrl: "/audio/dian.m4a",
     unit: 10,
   },
   {
@@ -288,7 +288,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Number / Date",
     meaningMn: "дугаар",
-    audioUrl: "/audio/YCT1汉字+录音/第九课/号/号.m4a",
+    audioUrl: "/audio/hao_num.m4a",
     unit: 9,
   },
   {
@@ -298,7 +298,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Month",
     meaningMn: "сар",
-    audioUrl: "/audio/YCT1汉字+录音/第九课/月/月.m4a",
+    audioUrl: "/audio/yue.m4a",
     unit: 9,
   },
   {
@@ -308,7 +308,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Now",
     meaningMn: "одоо",
-    audioUrl: "/audio/YCT1汉字+录音/第十课/现在/现在.m4a",
+    audioUrl: "/audio/xianzai.m4a",
     unit: 10,
   },
   {
@@ -318,7 +318,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Today",
     meaningMn: "өнөөдөр",
-    audioUrl: "/audio/YCT1汉字+录音/第九课/今天/今天.m4a",
+    audioUrl: "/audio/jintian.m4a",
     unit: 9,
   },
   {
@@ -328,7 +328,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Tomorrow",
     meaningMn: "маргааш",
-    audioUrl: "/audio/YCT1汉字+录音/第九课/明天/明天.m4a",
+    audioUrl: "/audio/mingtian.m4a",
     unit: 9,
   },
   {
@@ -338,7 +338,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Day of the week",
     meaningMn: "гариг",
-    audioUrl: "/audio/YCT1汉字+录音/第九课/星期/星期.m4a",
+    audioUrl: "/audio/xingqi.m4a",
     unit: 9,
   },
 
@@ -350,7 +350,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Goodbye",
     meaningMn: "баяртай",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/再见/再见.m4a",
+    audioUrl: "/audio/zaijian.m4a",
     unit: 1,
   },
   {
@@ -360,7 +360,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Thank you",
     meaningMn: "баярлалаа",
-    audioUrl: "/audio/YCT1汉字+录音/第八课/谢谢/谢谢.m4a",
+    audioUrl: "/audio/xiexie.m4a",
     unit: 8,
   },
 
@@ -372,7 +372,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To be",
     meaningMn: "бол",
-    audioUrl: "/audio/YCT1汉字+录音/第三课/是/是.m4a",
+    audioUrl: "/audio/shi.m4a",
     unit: 3,
   },
   {
@@ -382,7 +382,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To be called",
     meaningMn: "дуудах",
-    audioUrl: "/audio/YCT1汉字+录音/第二课/叫/叫.m4a",
+    audioUrl: "/audio/jiao.m4a",
     unit: 2,
   },
   {
@@ -392,7 +392,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To drink",
     meaningMn: "уух",
-    audioUrl: "/audio/YCT1汉字+录音/第十一课/喝/喝.m4a",
+    audioUrl: "/audio/he.m4a",
     unit: 11,
   },
   {
@@ -402,7 +402,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To eat",
     meaningMn: "идэх",
-    audioUrl: "/audio/YCT1汉字+录音/第十一课/吃/吃.m4a",
+    audioUrl: "/audio/chi.m4a",
     unit: 11,
   },
   {
@@ -412,7 +412,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To go",
     meaningMn: "явах",
-    audioUrl: "/audio/YCT1汉字+录音/第八课/去/去.m4a",
+    audioUrl: "/audio/qu.m4a",
     unit: 8,
   },
   {
@@ -422,7 +422,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To have",
     meaningMn: "байгаа",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/有/有.m4a",
+    audioUrl: "/audio/you.m4a",
     unit: 4,
   },
   {
@@ -432,7 +432,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To know / Recognize",
     meaningMn: "мэдэх",
-    audioUrl: "/audio/YCT1汉字+录音/第二课/认识/认识.m4a",
+    audioUrl: "/audio/renshi.m4a",
     unit: 2,
   },
   {
@@ -442,7 +442,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To like",
     meaningMn: "дуртай",
-    audioUrl: "/audio/YCT1汉字+录音/第九课/喜欢/喜欢.m4a",
+    audioUrl: "/audio/xihuan.m4a",
     unit: 9,
   },
   {
@@ -452,7 +452,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To love",
     meaningMn: "хайртай",
-    audioUrl: "/audio/YCT1汉字+录音/第十一课/爱/爱.m4a",
+    audioUrl: "/audio/ai.m4a",
     unit: 11,
   },
   {
@@ -462,7 +462,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "To look / Watch",
     meaningMn: "харах",
-    audioUrl: "/audio/YCT1汉字+录音/第七课/看/看.m4a",
+    audioUrl: "/audio/kan.m4a",
     unit: 7,
   },
 
@@ -474,7 +474,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Big",
     meaningMn: "том",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/大/大.m4a",
+    audioUrl: "/audio/da.m4a",
     unit: 6,
   },
   {
@@ -484,7 +484,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Good",
     meaningMn: "сайн",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/好/好.m4a",
+    audioUrl: "/audio/hao.m4a",
     unit: 1,
   },
   {
@@ -494,7 +494,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Happy",
     meaningMn: "жаргалтай",
-    audioUrl: "/audio/YCT1汉字+录音/第二课/高兴/高兴.m4a",
+    audioUrl: "/audio/gaoxing.m4a",
     unit: 2,
   },
   {
@@ -504,7 +504,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Long",
     meaningMn: "урт",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/长/长.m4a",
+    audioUrl: "/audio/chang.m4a",
     unit: 6,
   },
   {
@@ -514,7 +514,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Many / Much",
     meaningMn: "олон",
-    audioUrl: "/audio/YCT1汉字+录音/第七课/多/多.m4a",
+    audioUrl: "/audio/duo.m4a",
     unit: 7,
   },
   {
@@ -524,7 +524,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Small",
     meaningMn: "жижиг",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/小/小.m4a",
+    audioUrl: "/audio/xiao.m4a",
     unit: 6,
   },
   {
@@ -534,7 +534,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Tall / High",
     meaningMn: "өндөр",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/高/高.m4a",
+    audioUrl: "/audio/gao.m4a",
     unit: 6,
   },
 
@@ -546,7 +546,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "He",
     meaningMn: "тэр (эрэгтэй)",
-    audioUrl: "/audio/YCT1汉字+录音/第三课/他/他.m4a",
+    audioUrl: "/audio/ta_m.m4a",
     unit: 3,
   },
   {
@@ -556,7 +556,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "I / Me",
     meaningMn: "би",
-    audioUrl: "/audio/YCT1汉字+录音/第二课/我/我.m4a",
+    audioUrl: "/audio/wo.m4a",
     unit: 2,
   },
   {
@@ -566,7 +566,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "She",
     meaningMn: "тэр (эмэгтэй)",
-    audioUrl: "/audio/YCT1汉字+录音/第二课/她/她.m4a",
+    audioUrl: "/audio/ta_f.m4a",
     unit: 2,
   },
   {
@@ -576,7 +576,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "We / Us",
     meaningMn: "бид",
-    audioUrl: "/audio/YCT1汉字+录音/第八课/我们/我们.m4a",
+    audioUrl: "/audio/women.m4a",
     unit: 8,
   },
   {
@@ -586,7 +586,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "You",
     meaningMn: "чи",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/你/你.m4a",
+    audioUrl: "/audio/ni.m4a",
     unit: 1,
   },
   {
@@ -596,7 +596,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "This (Here)",
     meaningMn: "энэ (энд)",
-    audioUrl: "/audio/YCT1汉字+录音/第七课/这/这.m4a",
+    audioUrl: "/audio/zhe.m4a",
     unit: 7,
   },
   {
@@ -606,7 +606,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "That (There)",
     meaningMn: "тэр (тэнд)",
-    audioUrl: "/audio/YCT1汉字+录音/第七课/那/那.m4a",
+    audioUrl: "/audio/na.m4a",
     unit: 7,
   },
 
@@ -618,7 +618,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "How many",
     meaningMn: "хэдэн",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/几/几.m4a",
+    audioUrl: "/audio/ji.m4a",
     unit: 4,
   },
   {
@@ -628,7 +628,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "What",
     meaningMn: "ямар",
-    audioUrl: "/audio/YCT1汉字+录音/第二课/什么/什么.m4a",
+    audioUrl: "/audio/shenme.m4a",
     unit: 2,
   },
   {
@@ -638,7 +638,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Which (Where)",
     meaningMn: "аль",
-    audioUrl: "/audio/YCT1汉字+录音/第三课/哪/哪.m4a",
+    audioUrl: "/audio/na_which.m4a",
     unit: 3,
   },
   {
@@ -648,7 +648,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Who",
     meaningMn: "хэн",
-    audioUrl: "/audio/YCT1汉字+录音/第三课/谁/谁.m4a",
+    audioUrl: "/audio/shei.m4a",
     unit: 3,
   },
 
@@ -660,7 +660,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "One",
     meaningMn: "нэг",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/一/一.m4a",
+    audioUrl: "/audio/yi.m4a",
     unit: 1,
   },
   {
@@ -670,7 +670,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Two",
     meaningMn: "хоёр",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/二/二.m4a",
+    audioUrl: "/audio/er.m4a",
     unit: 1,
   },
   {
@@ -680,7 +680,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Three",
     meaningMn: "гурав",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/三/三.m4a",
+    audioUrl: "/audio/san.m4a",
     unit: 1,
   },
   {
@@ -690,7 +690,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Four",
     meaningMn: "дөрөв",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/四/四.m4a",
+    audioUrl: "/audio/si.m4a",
     unit: 1,
   },
   {
@@ -700,7 +700,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Five",
     meaningMn: "тав",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/五/五.m4a",
+    audioUrl: "/audio/wu.m4a",
     unit: 1,
   },
   {
@@ -710,7 +710,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Six",
     meaningMn: "зургаа",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/六/六.m4a",
+    audioUrl: "/audio/liu.m4a",
     unit: 1,
   },
   {
@@ -720,7 +720,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Seven",
     meaningMn: "долоо",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/七/七.m4a",
+    audioUrl: "/audio/qi.m4a",
     unit: 1,
   },
   {
@@ -730,7 +730,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Eight",
     meaningMn: "найм",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/八/八.m4a",
+    audioUrl: "/audio/ba.m4a",
     unit: 1,
   },
   {
@@ -740,7 +740,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Nine",
     meaningMn: "ес",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/九/九.m4a",
+    audioUrl: "/audio/jiu.m4a",
     unit: 1,
   },
   {
@@ -750,7 +750,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Ten",
     meaningMn: "арав",
-    audioUrl: "/audio/YCT1汉字+录音/第一课/十/十.m4a",
+    audioUrl: "/audio/shi_ten.m4a",
     unit: 1,
   },
 
@@ -762,7 +762,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "General measure word",
     meaningMn: "бүр",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/个/个.m4a",
+    audioUrl: "/audio/ge.m4a",
     unit: 4,
   },
   {
@@ -772,7 +772,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Years old",
     meaningMn: "нас",
-    audioUrl: "/audio/YCT1汉字+录音/第五课/岁/岁.m4a",
+    audioUrl: "/audio/sui.m4a",
     unit: 5,
   },
 
@@ -784,7 +784,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "No / Not",
     meaningMn: "үгүй",
-    audioUrl: "/audio/YCT1汉字+录音/第二课/不/不.m4a",
+    audioUrl: "/audio/bu.m4a",
     unit: 2,
   },
   {
@@ -794,7 +794,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Very",
     meaningMn: "маш",
-    audioUrl: "/audio/YCT1汉字+录音/第二课/很/很.m4a",
+    audioUrl: "/audio/hen.m4a",
     unit: 2,
   },
   {
@@ -804,7 +804,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "And",
     meaningMn: "бас",
-    audioUrl: "/audio/YCT1汉字+录音/第四课/和/和.m4a",
+    audioUrl: "/audio/he_and.m4a",
     unit: 4,
   },
   {
@@ -814,7 +814,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "At / In / On",
     meaningMn: "д, т",
-    audioUrl: "/audio/YCT1汉字+录音/第八课/在/在.m4a",
+    audioUrl: "/audio/zai.m4a",
     unit: 8,
   },
   {
@@ -824,7 +824,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Possessive particle",
     meaningMn: "ын, ийн",
-    audioUrl: "/audio/YCT1汉字+录音/第六课/的/的.m4a",
+    audioUrl: "/audio/de.m4a",
     unit: 6,
   },
   {
@@ -834,7 +834,7 @@ export const words: Word[] = [
     hskLevel: 1,
     meaningEn: "Question particle",
     meaningMn: "уу, үү?",
-    audioUrl: "/audio/YCT1汉字+录音/第二课/吗/吗.m4a",
+    audioUrl: "/audio/ma.m4a",
     unit: 2,
   },
 ]

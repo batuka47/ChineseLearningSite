@@ -157,8 +157,7 @@ export default function WordDetail({ word }: WordDetailProps) {
 
   const playAudio = () => {
     if (isPlayingAudio) return
-    const encodedUrl = word.audioUrl.replace(/[^\x00-\x7F]/g, (c) => encodeURIComponent(c))
-    const audio = new Audio(encodedUrl)
+    const audio = new Audio(word.audioUrl)
     audioRef.current = audio
     setIsPlayingAudio(true)
     audio.play()
