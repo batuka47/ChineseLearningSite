@@ -6,8 +6,11 @@ import SearchBar from "@/components/search-bar"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { words } from "@/lib/words-data"
 
+const ALL_UNITS = Array.from(new Set(words.map((w) => w.unit))).sort((a, b) => a - b)
+
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("")
+  const [selectedUnit, setSelectedUnit] = useState<number | null>(null)
 
   const removeToneMarks = (str: string) => {
     const toneMap: { [key: string]: string } = {
@@ -51,6 +54,8 @@ export default function Home() {
     const queryNoTones = removeToneMarks(queryLower)
 
     return words.filter((word) => {
+      if (selectedUnit !== null && word.unit !== selectedUnit) return false
+
       const hanziMatch = word.hanzi.includes(searchQuery)
       const englishMatch = word.meaningEn.toLowerCase().includes(queryLower)
       const pinyinNoTones = removeToneMarks(word.pinyin.toLowerCase())
@@ -58,7 +63,7 @@ export default function Home() {
 
       return hanziMatch || englishMatch || pinyinMatch
     })
-  }, [searchQuery])
+  }, [searchQuery, selectedUnit])
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -79,6 +84,33 @@ export default function Home() {
       <div className="flex-1 overflow-y-auto">
         <div className="w-full p-4 sm:p-6">
           <SearchBar query={searchQuery} onQueryChange={setSearchQuery} />
+
+          {/* Unit Filter */}
+          <div className="mt-4 flex flex-wrap gap-2">
+            <button
+              onClick={() => setSelectedUnit(null)}
+              className={`px-3 py-1.5 text-xs font-medium rounded-full border transition-colors ${
+                selectedUnit === null
+                  ? "bg-accent text-accent-foreground border-accent"
+                  : "bg-secondary border-border text-muted-foreground hover:bg-border"
+              }`}
+            >
+              All
+            </button>
+            {ALL_UNITS.map((unit) => (
+              <button
+                key={unit}
+                onClick={() => setSelectedUnit(selectedUnit === unit ? null : unit)}
+                className={`px-3 py-1.5 text-xs font-medium rounded-full border transition-colors ${
+                  selectedUnit === unit
+                    ? "bg-accent text-accent-foreground border-accent"
+                    : "bg-secondary border-border text-muted-foreground hover:bg-border"
+                }`}
+              >
+                Unit {unit}
+              </button>
+            ))}
+          </div>
 
           {/* Word List */}
           <div className="mt-6 sm:mt-8">

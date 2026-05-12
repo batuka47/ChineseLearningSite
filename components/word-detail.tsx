@@ -12,6 +12,7 @@ interface Word {
   meaningEn: string
   meaningMn: string
   audioUrl: string
+  unit: number
 }
 
 interface WordDetailProps {
@@ -151,9 +152,17 @@ export default function WordDetail({ word }: WordDetailProps) {
     }
   }, [])
 
+  const audioRef = useRef<HTMLAudioElement | null>(null)
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false)
+
   const playAudio = () => {
+    if (isPlayingAudio) return
     const audio = new Audio(word.audioUrl)
+    audioRef.current = audio
+    setIsPlayingAudio(true)
     audio.play()
+    audio.onended = () => setIsPlayingAudio(false)
+    audio.onerror = () => setIsPlayingAudio(false)
   }
 
   return (
@@ -238,7 +247,8 @@ export default function WordDetail({ word }: WordDetailProps) {
           <div className="flex gap-2 sm:gap-3">
             <button
               onClick={playAudio}
-              className="flex items-center justify-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-md bg-accent text-accent-foreground hover:opacity-90 transition-opacity font-medium text-sm sm:text-base"
+              disabled={isPlayingAudio}
+              className="flex items-center justify-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-md bg-accent text-accent-foreground hover:opacity-90 transition-opacity font-medium text-sm sm:text-base disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <Volume2 size={16} />
               <span>Audio</span>

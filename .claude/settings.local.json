@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem \"D:\\\\Projects\\\\LearnHanzi\\\\public\\\\audio\\\\YCT1汉字+录音\")",
+      "Bash(Select-Object Name)"
+    ]
+  }
+}
